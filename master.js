@@ -1,6 +1,6 @@
 const products = [
   {
-    name: 'MASTER Professionnelle en COACHING',  
+    name: 'MASTER european Professionnelle en COACHING',  
     firstDescription: "cest un excellent master",
     secondDescription:  "il s'agit de bla bla bla ",
   
