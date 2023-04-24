@@ -7,10 +7,8 @@
 	<script type="module">
 		import { products } from './master.js';
 
-		// use the products array to display the data
-		const course = document.querySelector('.course');
-
 		// create the HTML elements
+		const course = document.createElement('div');
 		const h3 = document.createElement('h3');
 		const h4 = document.createElement('h4');
 		const button = document.createElement('button');
@@ -19,21 +17,21 @@
 
 		// set the content of the elements using the data from the products array
 		h3.textContent = products[0].name;
-		h4.textContent = 'first description:';
+		h4.textContent = 'First Description:';
 		button.textContent = products[0].name;
 		p.textContent = products[0].secondDescription;
 		button2.textContent = 'INSCRIPTION EN LIGNE';
 
 		// add the elements to the course div
+		course.classList.add('course');
 		course.appendChild(h3);
 		course.appendChild(h4);
 		course.appendChild(button);
 		course.appendChild(p);
 		course.appendChild(button2);
-	</script>
 
-	<div class="course">
-		<!-- the content will be added using JavaScript -->
-	</div>
+		// add the course div to the body
+		document.body.appendChild(course);
+	</script>
 </body>
 </html>
