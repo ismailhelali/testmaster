@@ -11,3 +11,6 @@ Les étudiants participent à des projets pratiques pour appliquer les principes
 Le Master en Coaching prépare les diplômés à travailler comme coachs professionnels dans une variété d'environnements, tels que des entreprises, des organisations à but non lucratif, des établissements d'enseignement et des organismes gouvernementaux. Les diplômés peuvent également créer leur propre entreprise de coaching ou poursuivre des études supérieures en psychologie ou en conseil.",
   }
 ];
+
+
+export { products };
